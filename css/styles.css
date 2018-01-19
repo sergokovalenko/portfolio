@@ -1,0 +1,108 @@
+.bg-img{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: auto auto;
+    background-size: cover; 
+    height: 800px;
+    margin-top: -15px;
+}
+
+#home{
+    background-image: url("https://w-dog.net/wallpapers/3/10/449536844575203/balls-mountain-sky-sports-landscape.jpg");
+}
+
+#about{
+    background-image: url("http://anub.ru/uploads/03.2014/e47424610af8de48bdb9565f35603d64.jpg");
+}
+
+#contacts{
+    background-image: url("https://68.media.tumblr.com/d3fd545cd977a174beef12c1106880bf/tumblr_nt505iKkul1ud7rr3o1_1280.jpg");
+}
+
+footer{
+    background-color: #F8F8F8;
+    height: 100px;
+}
+
+footer p{
+    margin-top: 40px;
+}
+
+.block{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn{
+    color: white;
+    background-color: grey;
+    border: 1px black solid;
+    transition: 0.2s;
+    letter-spacing: 1px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    transform:scale(1.1);
+    transition: 0.2s;
+}
+
+.first-scene, .second-scene, .third-scene{
+   margin-top: 20%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#my-photo{
+    border-radius: 50%;
+    box-shadow: 5px 3px 3px black;
+}
+
+h2{
+    font-size: 40px;
+    color: black;
+}
+
+p{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+a.btn{
+    margin-bottom: 10px;
+}
+ul.nav{
+  background-color: #E7E7E7;
+}
+
+@media (max-width: 380px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+        color: black;
+    }
+    p{
+      font-size: 16px;
+    }
+    .bg-img{
+         height: 600px; 
+    }
+    #my-photo{
+        width: 150px;
+        height: 150px;
+    }
+    .first-scene{
+        margin-top: 30%;
+    }
+}
